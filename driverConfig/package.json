@@ -1,0 +1,19 @@
+{
+  "name": "seleniumjs",
+  "version": "1.0.0",
+  "description": "automation framework using selenium. bdd feature files created using cucumber and javescript language code used",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js"
+  },
+  "author": "AKA08",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "cucumber": "^6.0.5",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  }
+}
